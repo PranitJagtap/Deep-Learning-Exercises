@@ -1,0 +1,8 @@
+Load the Fashion MIST dataset from Keras and do the following:
+1. Find the number of classes
+2. Find the dimensions of each image
+3. Display one image from each class
+4. Perform normalization
+5. Build two neural networks with 2 hidden layers and 5 hidden layers.
+6. Train and test the above two networks.
+7. Compare their performances.
