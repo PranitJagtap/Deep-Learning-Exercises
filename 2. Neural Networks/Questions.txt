@@ -1,0 +1,32 @@
+Exer 1:
+Using the Body Fat dataset, design a Neural Network to predict body fat. Accurate measurement of 
+body fat is inconvenient/costly and it is desirable to have easy methods of predicting Body Fat.
+The attributes are :
+1. Density determined from underwater weighing
+2. Percent body fat from Siri's (1956) equation
+3. Age (years)
+4. Weight (lbs)
+5. Height (inches)
+6. Neck circumference (cm)
+7. Chest circumference (cm)
+8. Abdomen 2 circumference (cm)
+9. Hip circumference (cm)
+10. Thigh circumference (cm)
+11. Knee circumference (cm)
+12. Ankle circumference (cm)
+13. Biceps (extended) circumference (cm)
+14. Forearm circumference (cm)
+15. Wrist circumference (cm)
+1. Perform experiments using (70,15,15) split and tabulate the performance in terms of RMSE 
+for the following Hyper parameters : 
+a. Number of Hidden Layers and Number of Units per Layer
+Number of Hidden Layers | Number of Units
+		1 		|  128, 0 ,0
+		2 		|  128, 64, 0
+		3 		|  128, 64, 32
+b. Epochs (10,20,30,40)
+c. Activation function (Sigmoid /RELU)
+d. Without Regularization, with Regularization (L1/L2)
+e. Learning rate (1, 0.3, 0.1, 0.01,0.03,0.001,0.0001,0.00001)
+2. Visualize the training and validation loss against the epochs and comment on optimal 
+hyperparameters.

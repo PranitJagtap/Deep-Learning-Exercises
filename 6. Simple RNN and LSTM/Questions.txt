@@ -1,0 +1,31 @@
+EXERCISE 1: 
+https://keras.io/examples/structured_data/wide_deep_cross_networks/
+Use the Covertype dataset from the UCI Machine Learning Repository. The task is to 
+predict forest cover type from cartographic variables.
+Create two representations of the input features: sparse and dense: 
+1. In the sparse representation, the categorical features are encoded with one-hot 
+encoding using the CategoryEncoding layer. This representation can be useful for the 
+model to memorize particular feature values to make certain predictions. 
+2. In the dense representation, the categorical features are encoded with low-dimensional 
+embeddings using the Embedding layer. This representation helps the model 
+to generalize well to unseen feature combinations.
+Split the data into training (85%) and validation (15%) sets.
+Model 1 :
+Create a multi-layer feed-forward network, where the categorical features are one-hot 
+encoded.
+learning_rate = 0.001
+dropout_rate = 0.1
+batch_size = 265
+num_epochs = 50
+hidden_units = [32, 32]
+Model 2:
+Create a Wide & Deep model where the wide part of the model a linear model, while the 
+deep part of the model is a multi-layer feed-forward network. Use the sparse 
+representation of the input features in the wide part of the model and the dense 
+representation of the input features for the deep part of the model.
+Model 3:
+Create a Deep & Cross model. The deep part of this model is the same as the deep part 
+created in the previous experiment. The key idea of the cross part is to apply explicit 
+feature crossing in an efficient way, where the degree of cross features grows with layer 
+depth.
+Compare the loss and accuracy of the three models.

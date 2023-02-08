@@ -1,0 +1,14 @@
+Q1. Implement the AlexNet architecture. Train, test and report the performance of this model 
+on the Cats_and_Dogs_Dataset, Horse2Zebra Dataset
+Note: 
+• The Cats_and_Dogs_Dataset can downloaded from: 
+https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip
+• Horse2Zebra Dataset can be downloaded from:
+https://www.kaggle.com/datasets/balraj98/horse2zebra-dataset
+Q2. Train, test and report the performances using the following models on the 
+Cats_and_Dogs_Dataset and Horse2Zebra dataset.
+1) VGG-16
+2) GoogleNet
+3) ResNet50
+4) EfficientNetB0
+5) MobileNetV2
